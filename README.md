@@ -2,7 +2,7 @@
 
 The official Pytorch implementation of AlignUS (TASLP 2025)
 
-![image]()
+![image](https://github.com/suntea233/AlignUS/blob/main/architecture.png)
 <p align="center"><em> Overall architecture </em>
 
 
