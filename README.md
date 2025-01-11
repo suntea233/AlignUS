@@ -1,6 +1,7 @@
 # AlignUS: Utterance Alignment of Language Models for Effective User Simulation in Task-Oriented Dialogues
+Code for our Paper "**AlignUS**: *Utterance Alignment of Language Models for Effective User Simulation in Task-Oriented Dialogues*"
 
-The official Pytorch implementation of AlignUS (TASLP 2025)
+
 
 ![image](https://github.com/suntea233/AlignUS/blob/main/architecture.png)
 <p align="center"><em> Overall architecture </em>
