@@ -31,4 +31,4 @@ python script.py
 ```
 
 ### 👏 Credits
-*A shout-out to the authors of [ConvLab-3](https://github.com/ConvLab/ConvLab-3) and [GenTUS](https://aclanthology.org/2022.sigdial-1.28/) for building the framework from which we constructed the foundations of this work.*
+*A heartfelt shout-out to the authors of [ConvLab-3](https://github.com/ConvLab/ConvLab-3) and [GenTUS](https://aclanthology.org/2022.sigdial-1.28/) for creating the framework that provided the foundation for this work.*
