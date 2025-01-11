@@ -6,9 +6,9 @@ from convlab.policy.policy import Policy
 from convlab.task.multiwoz.goal_generator import GoalGenerator
 # from convlab.policy.genTUS.unify.Goal import Goal
 from convlab2.policy.user_sim.multiwoz.goal import Goal
-from convlab.policy.BlendUS.stepGenTUS import UserPolicy
+from convlab.policy.AlignUS.stepGenTUS import UserPolicy
 # from convlab.policy.genTUS.stepGenTUS import UserPolicy
-from convlab.policy.BlendUS.base_model import FlanT5, ChatGPT, ChatGLM2, LLAMA, LLAMA2
+from convlab.policy.AlignUS.base_model import FlanT5, ChatGPT, ChatGLM2, LLAMA, LLAMA2
 
 
 word2slot = {value.capitalize(): key.capitalize() for key, value in slot2word.items()}
@@ -34,7 +34,7 @@ old_slot_map = {
 slot_map = {value.capitalize(): key.capitalize() for key, value in old_slot_map.items()}
 
 
-class BlendUS(Agent):
+class AlignUS(Agent):
     def __init__(self,print_details=True,large_name='chatgpt'):
         self.reward_func = lambda goal, dialog, completed: 40 if completed else -20
         self.opponent_name = 'sys'
