@@ -4,9 +4,8 @@ import json
 import torch
 from torch.nn.functional import softmax, one_hot, cross_entropy
 
-from convlab.policy.BlendUS.unify.knowledge_graph import KnowledgeGraph
-from convlab.policy.BlendUS.token_map import tokenMap
-from convlab.policy.genTUS.utils import append_tokens
+from convlab.policy.AlignUS.unify.knowledge_graph import KnowledgeGraph
+from convlab.policy.AlignUS.token_map import tokenMap
 from transformers import (BartConfig, BartForConditionalGeneration,
                           BartTokenizer,AutoTokenizer,AutoConfig,AutoModelForSeq2SeqLM,T5ForConditionalGeneration)
 
