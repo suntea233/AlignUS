@@ -6,10 +6,10 @@ import torch
 from transformers import BartTokenizer,AutoTokenizer
 
 import zipfile
-from convlab.policy.BlendUS.ppo.vector import stepGenTUSVector
-from convlab.policy.BlendUS.stepGenTUSmodel import stepGenTUSmodel
-from convlab.policy.BlendUS.token_map import tokenMap
-from convlab.policy.BlendUS.unify.knowledge_graph import KnowledgeGraph
+from convlab.policy.AlignUS.ppo.vector import stepGenTUSVector
+from convlab.policy.AlignUS.stepGenTUSmodel import stepGenTUSmodel
+from convlab.policy.AlignUS.token_map import tokenMap
+from convlab.policy.AlignUS.unify.knowledge_graph import KnowledgeGraph
 from convlab.policy.policy import Policy
 from convlab.util.file_util import cached_path
 
